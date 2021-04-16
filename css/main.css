@@ -148,3 +148,11 @@ body {
 .footer * {
   margin: 0;
 }
+
+nav a:hover, a:focus {
+  color: #bea59b;
+}
+
+.nav a {
+  color: #fff;
+}
