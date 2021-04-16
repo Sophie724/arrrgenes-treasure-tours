@@ -54,6 +54,7 @@ body {
   padding: .5em;
   border-radius: 1em;
   text-decoration: none;
+  outline: inherit;
 }
 
 .banner {
@@ -63,6 +64,7 @@ body {
   grid-template-areas: "banner";
   color: #fff;
   font-size: 1.5rem;
+  background-color: #000;
 }
 
 .banner img {
@@ -82,6 +84,7 @@ body {
 .banner h2,
 .banner p {
   margin: 0 0 1.5rem;
+  color: #fff;
 }
 
 .banner a {
@@ -151,8 +154,4 @@ body {
 
 nav a:hover, a:focus {
   color: #bea59b;
-}
-
-.nav a {
-  color: #fff;
 }
